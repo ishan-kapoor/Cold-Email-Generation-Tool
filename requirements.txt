@@ -1,0 +1,8 @@
+streamlit
+langchain
+langchain-groq
+langchain_community
+beautifulsoup4
+chromadb
+pandas
+uuid
