@@ -2,6 +2,9 @@
 
 A **Streamlit-based AI tool** for generating personalized cold emails by combining job description scraping, portfolio matching, and AI-driven email generation.
 
+## Screenshot
+
+
 ---
 
 ## Features
@@ -25,6 +28,7 @@ A **Streamlit-based AI tool** for generating personalized cold emails by combini
 │   └── my_portfolio.csv # Portfolio CSV file
 └── README.md            # Documentation
 
+```
 
 ## Installation and Setup
 
@@ -46,6 +50,7 @@ Prepare a CSV file named my_portfolio.csv in the resources directory. The file s
     Techstack: Skills or technologies (e.g., Python, JavaScript).
     Links: URLs showcasing your work or projects.
 
+---
 
 ## Features
 
@@ -65,14 +70,19 @@ Prepare a CSV file named my_portfolio.csv in the resources directory. The file s
     Matches relevant portfolio links.
     Generates a professional email tailored to the job.
 
+---
+
 ##Example Workflow
+
 Job Description Scraping: Extract job details from the provided URL.
 Portfolio Matching: Select projects matching the job's requirements.
 Cold Email Generation: Create a personalized email with your contact details, skills, and portfolio links.
 
-Dependencies
-This project uses the following libraries:
+---
 
+## Dependencies
+
+This project uses the following libraries:
     langchain
     langchain-groq
     langchain_community
