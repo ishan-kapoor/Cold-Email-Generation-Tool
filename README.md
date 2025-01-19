@@ -26,7 +26,7 @@ A **Streamlit-based AI tool** for generating personalized cold emails by combini
 └── README.md            # Documentation
 
 
-Installation and Setup
+## Installation and Setup
 
 1. Clone the Repository
 Clone the repository to your local machine:
@@ -43,22 +43,9 @@ Add your Groq API key to a .env file:
 
 4. Add Your Portfolio
 Prepare a CSV file named my_portfolio.csv in the resources directory. The file should contain the following columns:
+    Techstack: Skills or technologies (e.g., Python, JavaScript).
+    Links: URLs showcasing your work or projects.
 
-Techstack: Skills or technologies (e.g., Python, JavaScript).
-Links: URLs showcasing your work or projects.
-
-
-
-Here is your complete README.md file:
-
-markdown
-Copy
-Edit
-# Cold Email Generation Tool
-
-A **Streamlit-based AI tool** for generating personalized cold emails by combining job description scraping, portfolio matching, and AI-driven email generation.
-
----
 
 ## Features
 
@@ -68,48 +55,7 @@ A **Streamlit-based AI tool** for generating personalized cold emails by combini
 
 ---
 
-## Project Structure
-
-```plaintext
-.
-├── main.py              # Main Streamlit app
-├── portfolio.py         # Portfolio functions (load and query portfolio)
-├── chains.py            # AI processing and chain logic
-├── requirements.txt     # Project dependencies
-├── .env                 # Environment variables
-├── resources/
-│   └── my_portfolio.csv # Portfolio CSV file
-└── README.md            # Documentation
-Installation and Setup
-1. Clone the Repository
-Clone the repository to your local machine:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-2. Install Dependencies
-Install all required Python libraries using pip:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3. Configure the Environment
-Add your Groq API key to a .env file:
-
-plaintext
-Copy
-Edit
-GROQ_API_KEY=your-groq-api-key
-4. Add Your Portfolio
-Prepare a CSV file named my_portfolio.csv in the resources directory. The file should contain the following columns:
-
-Techstack: Skills or technologies (e.g., Python, JavaScript).
-Links: URLs showcasing your work or projects.
-Usage
-
+## Usage
 
 1. Run the Application: Start the Streamlit app by running: streamlit run main.py
 
