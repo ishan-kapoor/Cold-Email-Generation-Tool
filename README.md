@@ -83,15 +83,15 @@ Cold Email Generation: Create a personalized email with your contact details, sk
 ## Dependencies
 
 This project uses the following libraries:
-    langchain
-    langchain-groq
-    langchain_community
-    chromadb
-    beautifulsoup4
-    pandas
-    streamlit
-    python-dotenv
-    Install all dependencies with: pip install -r requirements.txt
+    -langchain
+    -langchain-groq
+    -langchain_community
+    -chromadb
+    -beautifulsoup4
+    -pandas
+    -streamlit
+    -python-dotenv
+    -Install all dependencies with: pip install -r requirements.txt
 
 Future Enhancements
     Support for additional vector databases.
@@ -100,7 +100,7 @@ Future Enhancements
 
 
 
-Contact
-Developer: Ishan Kapoor
-Email: ishankpor@gmail.com
-Phone: +91-97112-54075
+## Contact
+-Developer: Ishan Kapoor
+-Email: ishankpor@gmail.com
+-Phone: +91-97112-54075
