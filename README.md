@@ -32,9 +32,8 @@ A **Streamlit-based AI tool** for generating personalized cold emails by combini
 
 ## Installation and Setup
 
-1. Clone the Repository
-Clone the repository to your local machine:
-    git clone https://github.com/your-username/your-repo-name.git
+1. Clone the Repository to your local machine:
+    https://github.com/ishan-kapoor/Cold-Email-Generation-Tool
     cd your-repo-name
 
 2. Install Dependencies
